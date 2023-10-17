@@ -1,5 +1,3 @@
-package sampleprograms;
-
 import java.util.Scanner;
 
 public class sumOfArray {
