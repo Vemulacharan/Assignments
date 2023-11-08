@@ -1,6 +1,6 @@
 package Threads;
 
-class LongrunnigTask extends Thread{
+class LongrunningTask extends Thread{
 	public void run() {
 		try {
 		
@@ -20,7 +20,7 @@ public class ThreadInterruption {
 
 	public static void main(String[] args) {
 		
-		LongrunnigTask lt = new LongrunnigTask();
+		LongrunningTask lt = new LongrunningTask();
 		lt.start();
 		
 		try {
